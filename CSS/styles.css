@@ -1,10 +1,49 @@
-/* My Awesome Styles */
-
-/* Diagnostic Styling 
-* Change Background Color 
-* Outline Elements
- */
-
- * {
-     outline: 1px dotted  blue;
- }
+body {
+    background-image: url("https://about-france.com/art/bonnard-clichy.jpg");
+  background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  aside {
+    padding: 2%;
+    margin: 2% 1% 0 1%;
+    border: 1px solid;
+    background-color: black;
+    opacity: 70%;
+    text-align: center;
+  }
+  
+  section.question, section.answer, p{
+    font-size: 1.3rem;
+    font-family: 'Big Shoulders Text', cursive;
+     color: white;
+  }
+  
+  section.answer {
+    border-radius: 2rem;
+    border: 1px solid white;
+    background-color: white;
+  }
+  
+  section.answer:hover
+  {
+    background-color: black; 
+  }
+  
+  p.hover {
+    text-align: center;
+    color: black;
+  }
